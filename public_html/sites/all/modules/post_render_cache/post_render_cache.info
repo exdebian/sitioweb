@@ -1,0 +1,11 @@
+name = Post Render Cache
+description = Provides the ability to execute arbitrary callbacks after getting the output of a render array from cache.
+
+core = 7.x
+package = Performance and scalability
+; Information added by Drupal.org packaging script on 2015-09-02
+version = "7.x-1.0"
+core = "7.x"
+project = "post_render_cache"
+datestamp = "1441194544"
+

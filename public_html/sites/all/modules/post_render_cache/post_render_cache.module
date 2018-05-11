@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * @file
+ * Post Render Cache main file.
+ */
+
+/**
+ * Helper function to run custom callbacks
+ * on render arrays output even after cache_get().
+ *
+ * Attach to the #pre_render key of the render array.
+ *
+ * Specify the custom callbacks you want to run on content in #post_render_cache key.
+ *
+ * @param array $elements
+ *   Render array needing processing after a cache_get().
+ */
+function post_render_cache_pre_render(&$elements) {
+  $elements['#attached']['_post_render_cache_process'][] = array(&$elements);
+  return $elements;
+}
+
+function _post_render_cache_process(&$elements) {
+  // Do some work of drupal_render() before itself, so we can alter the content on cache_get().
+  $prefix = isset($elements ['#prefix']) ? $elements ['#prefix'] : '';
+  $suffix = isset($elements ['#suffix']) ? $elements ['#suffix'] : '';
+  $elements['#children'] = $prefix . $elements ['#children'] . $suffix;
+  $elements['#prefix'] = $elements['#suffix'] = NULL; // unset() wouldn't work as expected here, because $elements is passed by-ref
+
+
+  // Cache the processed element if #cache is set.
+  if (isset($elements ['#cache']) && !isset($elements['#post_render_cached'])) {
+    drupal_render_cache_set($elements['#children'], $elements);
+    $elements['#cache'] = NULL;
+    $elements['#post_render_cached'] = TRUE; // Avoid calling cache_set() just after cache_get().
+  }
+
+  foreach ($elements ['#post_render_cache'] as $function) {
+    if (function_exists($function)) {
+      $elements ['#children'] = $function($elements ['#children'], $elements);
+    }
+  }
+}
