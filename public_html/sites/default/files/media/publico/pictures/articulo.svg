@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="55.67123mm"
+   height="66.496185mm"
+   viewBox="0 0 197.26027 235.6164"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="articulos.svg"
+   enable-background="new">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect4261"
+       is_visible="true"
+       pattern="m 2.4547683,0.00709741 1,0"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0518077"
+     inkscape:cx="29.337923"
+     inkscape:cy="269.15413"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="839"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="-546.60347,74.805865"
+       orientation="1,0"
+       id="guide4260" />
+    <sodipodi:guide
+       position="-399.00736,57.498185"
+       orientation="1,0"
+       id="guide4262" />
+    <sodipodi:guide
+       position="229.61942,386.42834"
+       orientation="0,1"
+       id="guide4439" />
+    <sodipodi:guide
+       position="468.45432,183.51572"
+       orientation="0,1"
+       id="guide4448" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Articulos"
+     style="display:inline"
+     transform="translate(-2197.5651,-1394.4363)">
+    <g
+       id="g4571"
+       transform="translate(-7.6104469,170.51282)">
+      <rect
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:13.30000019;stroke-dasharray:none;stroke-dashoffset:58.58060455;stroke-opacity:1"
+         id="rect4485"
+         width="197.26028"
+         height="235.61644"
+         x="2205.1755"
+         y="1223.9235"
+         ry="0.71101683" />
+      <path
+         style="opacity:1;fill:#4b4b4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.33099985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:58.58060455;stroke-opacity:1"
+         d="m 2260.9448,1244.1771 c -12.6013,0 -22.8716,9.5765 -23.9903,21.8766 l 12.687,0 c 6.4214,0 11.5922,5.1708 11.5922,11.5922 l 0,1.2888 c 0,6.4214 -5.1708,11.5885 -11.5922,11.5885 l -12.8012,0 0,53.3948 12.8012,0 c 6.4214,0 11.5922,5.1709 11.5922,11.5922 l 0,1.2889 c 0,6.4213 -5.1708,11.5884 -11.5922,11.5884 l -12.687,0 c 1.1345,12.2839 11.4005,21.8423 23.9903,21.8423 l 99.7522,0 c 13.3541,0 24.1046,-10.7506 24.1046,-24.1045 l 0,-97.8437 c 0,-13.3538 -10.7505,-24.1045 -24.1046,-24.1045 l -99.7522,0 z m 16.2989,12.3222 13.3033,0 24.5758,0 43.3806,0 c 7.3699,0 13.3029,5.6607 13.3029,12.6948 l 0,96.5472 c 0,7.0341 -5.933,12.6948 -13.3029,12.6948 l -43.3806,0 -24.5758,0 -13.3033,0 0,-12.6948 0,-96.5472 0,-12.6948 z m -47.9655,13.7555 c -4.5525,0 -8.2199,3.6637 -8.2199,8.2161 l 0,0.9125 c 0,4.5524 3.6673,8.2198 8.2199,8.2198 l 18.2609,0 c 4.5523,0 8.2161,-3.6674 8.2161,-8.2198 l 0,-0.9125 c 0,-4.5524 -3.6638,-8.2161 -8.2161,-8.2161 l -18.2609,0 z m 57.3413,0.3156 0,10.6607 73.9331,0 0,-10.6607 -73.9331,0 z m 0,19.4661 0,10.6607 73.9331,0 0,-10.6607 -73.9331,0 z m 0,23.3593 0,10.6607 73.9331,0 0,-10.6607 -73.9331,0 z m 0,19.4661 0,10.6607 73.9331,0 0,-10.6607 -73.9331,0 z m -57.3413,15.2573 c -4.5525,0 -8.2199,3.6636 -8.2199,8.2161 l 0,0.9124 c 0,4.5525 3.6673,8.2199 8.2199,8.2199 l 18.2609,0 c 4.5523,0 8.2161,-3.6674 8.2161,-8.2199 l 0,-0.9124 c 0,-4.5525 -3.6638,-8.2161 -8.2161,-8.2161 l -18.2609,0 z m 57.3413,6.2847 0,10.6607 48.8745,0 0,-10.6607 -48.8745,0 z"
+         id="path4251"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4280"
+         y="1445.6213"
+         x="2216.5334"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1445.6213"
+           x="2216.5334"
+           id="tspan4282"
+           sodipodi:role="line">Artículos</tspan></text>
+    </g>
+  </g>
+</svg>
